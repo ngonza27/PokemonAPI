@@ -45,10 +45,16 @@ $ sudo tar xzf apache-maven-3.6.3-bin.tar.gz
 $ sudo ln -s apache-maven-3.6.3 maven
 $ sudo nano /etc/profile.d/maven.sh
 ```
--Add the following content
+Agregar las siguiente lineas dentro del archivo maven.sh
+
 ```
 export M2_HOME=/opt/maven
 export PATH=${M2_HOME}/bin:${PATH}
+```
+
+Para salirse del editor:
+```
+Ctrl+x -> y -> enter
 
 $ source /etc/profile.d/maven.sh
 
