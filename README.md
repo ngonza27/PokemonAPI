@@ -53,8 +53,9 @@ export PATH=${M2_HOME}/bin:${PATH}
 ```
 
 Para salirse del editor:
-```
 Ctrl+x -> y -> enter
+```
+
 
 $ source /etc/profile.d/maven.sh
 
@@ -64,5 +65,5 @@ $ mvn spring-boot:run
 
 ```
 
-La aplicación se ejecutará y luego podrá probar su aplicación utilizando la URL de su instancia ec2 y la configuración del punto final.
+La aplicación se ejecutará y luego podrá probar su aplicación utilizando la URL de su instancia ec2 y la configuración del path de la API.
 
